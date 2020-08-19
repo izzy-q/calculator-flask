@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/static/styles/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <title>Calculator | Home</title>
+</head>
+
+<body>
+    <h1 class="text" id="title">Calculator</h1>
+
+    <div>
+        <form class="form" action="/result/" method="POST">
+            <select name="func" type="dropdown" id="input">
+                <option value="regular" id="select">Regular</option>
+                <option value="factors" id="select">Factors</option>
+                <option value="absolute value" id="select">Absolute Value</option>
+                <option value="sqaure root" id="select">Sqaure Root</option>
+                <option value="greatest common factor" id="select">GCF</option>
+            </select>
+            <input id="input" type="text" name="variables" placeholder="Variables here">
+            <input id="button" type="submit" value="Enter">
+        </form>
+    </div>
+
+</body>
+</html>
